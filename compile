@@ -1,0 +1,7 @@
+cd $phoenix_dir
+cd assets
+npm install
+
+cd $phoenix_dir
+npm run deploy --prefix ./assets
+mix "${phoenix_ex}.digest"
