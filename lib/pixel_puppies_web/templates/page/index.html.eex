@@ -1,0 +1,7 @@
+<h1>Pets of Pixel Union</h1>
+
+<%= for pic <- all_pet_files() do %>
+  <div>
+    <image src="<%= pet_files_web_path(pic) %>" alt="<%= pic %>" />
+  </div>
+<% end %>
