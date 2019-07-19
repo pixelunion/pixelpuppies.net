@@ -2,7 +2,7 @@ defmodule PixelPuppiesWeb.PageView do
   use PixelPuppiesWeb, :view
 
   @pet_path "/images/pets/"
-  @pets_directory "priv/static/images/pets"
+  @pets_directory "assets/static/images/pets"
   @file_ext [".jpg", "jpeg", ".png", "gif"]
 
   def all_pet_files do
