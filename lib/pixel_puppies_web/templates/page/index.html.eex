@@ -2,6 +2,7 @@
 
 <%= for pic <- all_pet_files() do %>
   <div>
+    <h3><%= pet_pic_title(pic) %></h3>
     <image src="<%= pet_path(pic) %>" alt="<%= pic %>" />
   </div>
 <% end %>
